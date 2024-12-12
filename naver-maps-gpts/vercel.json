@@ -1,1 +1,12 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api/index.ts" }] }
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/naver-maps-gpts/api/index.ts" }
+    ],
+    "builds": [
+      {
+        "src": "naver-maps-gpts/api/index.ts",
+        "use": "@vercel/node"
+      }
+    ]
+  }
+  
