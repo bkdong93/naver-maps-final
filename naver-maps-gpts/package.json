@@ -21,6 +21,7 @@
     "@types/express": "^5.0.0",
     "@types/http-errors": "^2.0.4",
     "@types/mime": "^4.0.0",
+    "@types/mime-types": "^2.1.4",
     "@types/qs": "^6.9.17",
     "@types/range-parser": "^1.2.7",
     "@types/serve-static": "^1.15.7"
